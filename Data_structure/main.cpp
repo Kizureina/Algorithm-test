@@ -1,6 +1,6 @@
 #include "main.hpp"
 
-int array[101] = { 0 };
+int array[128] = { 0 };
 int temp, n;
 
 int main()
@@ -13,8 +13,12 @@ int main()
 		std::cin >> array[i];
 	}
 
-	//quick_sorting(1, n);
-	bubble_sorting();
+	quick_sorting(0, n - 1);
+
+	for (size_t i = 0; i < n; i++)
+	{
+		std::cout << array[i] << " ";
+	}
 
 	return 0;
 }

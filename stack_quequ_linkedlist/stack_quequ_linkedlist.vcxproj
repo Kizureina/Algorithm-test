@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{42b80ba7-3e68-47db-b8a4-1dbbe54095ee}</ProjectGuid>
-    <RootNamespace>Datastructure</RootNamespace>
+    <ProjectGuid>{ea6779ce-31af-40cb-9cbf-7c314be3e1e9}</ProjectGuid>
+    <RootNamespace>stackquequlinkedlist</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>sorting</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,10 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="book-sorting.cpp" />
-    <ClCompile Include="bubble-sort.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="quick-sort.cpp" />
+    <ClCompile Include="stack_quequ_linkedlist.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.hpp" />

@@ -3,9 +3,11 @@
 // 冒泡排序
 void bubble_sorting()
 {
-	for (size_t i = 0; i <= n - 1; i++)
+	// 外循环从第一个数到最后一个数
+	for (size_t i = 0; i < n; i++)
 	{
-		for (size_t j = 0; j <= n - i; j++)
+		// 内循环的边界是关键，到最后一个没有被排好的数即可(比较的是+1，所以-1)
+		for (size_t j = 0; j < n - i - 1; j++)
 		{
 			if (array[j + 1] < array[j])
 			{
@@ -14,10 +16,5 @@ void bubble_sorting()
 				array[j] = temp;
 			}
 		}
-	}
-
-	for (size_t i = 0; i < n; i++)
-	{
-		std::cout << array[i] << " ";
 	}
 }

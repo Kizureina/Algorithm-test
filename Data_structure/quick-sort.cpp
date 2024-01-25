@@ -1,6 +1,6 @@
 #include "main.hpp"
 
-// 快速排序
+// 快速排序——最坏情况下与冒泡相同，平均时间复杂度为O(n*logn)
 void quick_sorting(int left, int right)
 {
 	int i, j, base;
@@ -16,11 +16,13 @@ void quick_sorting(int left, int right)
 
 	while (i != j)
 	{
+		// 当array[j]大于基准时，跳到下一个数(因为我们是正序，所以大于则无需交换，需要寻找不在正确位置的小于基准的数)
 		while (array[j] >= base && i < j)
 		{
 			j--;
 		}
 
+		// 当array[i]小于基准时，跳到下一个数
 		while (array[i] <= base && i < j)
 		{
 			i++;
