@@ -4,6 +4,9 @@
 void quick_sorting(int left, int right)
 {
 	int i, j, base;
+
+	// 这里的判断很重要，如果基准很早就已归位，那会出现i = j = 0，然后递归为left = 0, right = -1
+	// 所以使用这里判断让基准移动
 	if (left > right)
 	{
 		return;
@@ -17,12 +20,13 @@ void quick_sorting(int left, int right)
 	while (i != j)
 	{
 		// 当array[j]大于基准时，跳到下一个数(因为我们是正序，所以大于则无需交换，需要寻找不在正确位置的小于基准的数)
+		// 注意顺序不能换，必须为先从右开始扫，否则如果基准早早归位，无法出现***i = j = 0***
 		while (array[j] >= base && i < j)
 		{
 			j--;
 		}
 
-		// 当array[i]小于基准时，跳到下一个数
+		// 当array[i]小于或等于基准时，跳到下一个数
 		while (array[i] <= base && i < j)
 		{
 			i++;

@@ -2,8 +2,6 @@
 
 int main()
 {
-	std::cout << stack_test_echo_word() << std::endl;
-
+	linkedList_test();
 	return 0;
 }
-
