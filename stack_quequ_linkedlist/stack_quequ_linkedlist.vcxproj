@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="cat_fishing_game_simulate.cpp" />
     <ClCompile Include="linkedList.cpp" />
+    <ClCompile Include="linkedlist_by_array.cpp" />
     <ClCompile Include="queue.cpp" />
     <ClCompile Include="stack.cpp" />
     <ClCompile Include="stack_quequ_linkedlist.cpp" />

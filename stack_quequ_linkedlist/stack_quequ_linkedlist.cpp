@@ -2,6 +2,6 @@
 
 int main()
 {
-	linkedList_test();
+	linkedList_by_array();
 	return 0;
 }
