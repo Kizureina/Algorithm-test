@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sorting", "Data_structure\D
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stack_quequ_linkedlist", "stack_quequ_linkedlist\stack_quequ_linkedlist.vcxproj", "{EA6779CE-31AF-40CB-9CBF-7C314BE3E1E9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "enumeration", "enumeration\enumeration.vcxproj", "{AD78A707-2653-44F4-BA9A-FC1653A78ECA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{EA6779CE-31AF-40CB-9CBF-7C314BE3E1E9}.Release|x64.Build.0 = Release|x64
 		{EA6779CE-31AF-40CB-9CBF-7C314BE3E1E9}.Release|x86.ActiveCfg = Release|Win32
 		{EA6779CE-31AF-40CB-9CBF-7C314BE3E1E9}.Release|x86.Build.0 = Release|Win32
+		{AD78A707-2653-44F4-BA9A-FC1653A78ECA}.Debug|x64.ActiveCfg = Debug|x64
+		{AD78A707-2653-44F4-BA9A-FC1653A78ECA}.Debug|x64.Build.0 = Debug|x64
+		{AD78A707-2653-44F4-BA9A-FC1653A78ECA}.Debug|x86.ActiveCfg = Debug|Win32
+		{AD78A707-2653-44F4-BA9A-FC1653A78ECA}.Debug|x86.Build.0 = Debug|Win32
+		{AD78A707-2653-44F4-BA9A-FC1653A78ECA}.Release|x64.ActiveCfg = Release|x64
+		{AD78A707-2653-44F4-BA9A-FC1653A78ECA}.Release|x64.Build.0 = Release|x64
+		{AD78A707-2653-44F4-BA9A-FC1653A78ECA}.Release|x86.ActiveCfg = Release|Win32
+		{AD78A707-2653-44F4-BA9A-FC1653A78ECA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
