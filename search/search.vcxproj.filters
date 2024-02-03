@@ -15,18 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="enumeration.cpp">
+    <ClCompile Include="search.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="math_problem.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="bombMan.cpp">
+    <ClCompile Include="deep_first_search.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="enumeration.hpp">
+    <ClInclude Include="main.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

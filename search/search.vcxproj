@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ad78a707-2653-44f4-ba9a-fc1653a78eca}</ProjectGuid>
-    <RootNamespace>enumeration</RootNamespace>
+    <ProjectGuid>{5c924e57-ed4a-40a9-8893-412b4ec12ba0}</ProjectGuid>
+    <RootNamespace>search</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,12 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="bombMan.cpp" />
-    <ClCompile Include="enumeration.cpp" />
-    <ClCompile Include="math_problem.cpp" />
+    <ClCompile Include="deep_first_search.cpp" />
+    <ClCompile Include="search.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="enumeration.hpp" />
+    <ClInclude Include="main.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
