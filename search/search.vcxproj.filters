@@ -21,6 +21,12 @@
     <ClCompile Include="deep_first_search.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="dfs_math_problem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="puzzle_road_by_dfs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.hpp">
