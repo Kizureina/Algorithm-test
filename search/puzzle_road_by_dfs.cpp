@@ -1,16 +1,4 @@
 #include "main.hpp"
-#define P 4
-#define Q 2
-int minstep = 10000;
-int m, n;
-// 方便模拟移动坐标，定义一个方向数组以获取下一步的坐标
-int next_map[4][2] = {
-	{0, 1}, // 向右
-	{1, 0}, // 向下
-	{0, -1}, // 向左
-	{-1, 0} // 向上
-};
-
 
 void find_shortest_path_by_dfs()
 {
