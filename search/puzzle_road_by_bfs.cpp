@@ -7,7 +7,6 @@ struct note
 	int y;
 	int step;
 };
-int head, tail;
 note que[2500];
 
 
@@ -60,6 +59,7 @@ void find_path_by_bfs(int startx, int starty)
 			// 判断是否到达目标点
 			if (tx == P && ty == Q)
 			{
+				// 先标记到达，再结束for循环，然后执行下一行head++，以通过一直head++结束while循环
 				flag = 1;
 				break;
 			}
@@ -71,6 +71,7 @@ void find_path_by_bfs(int startx, int starty)
 		}
 
 		// 四个方向遍历完成，说明当前点的扩展完成，移动到队列中下一个点进行遍历
+		// 并且结束循环也需要靠这行
 		head++;
 	}
 	

@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="bomb_man_problem_by_bfs.cpp" />
     <ClCompile Include="deep_first_search.cpp" />
     <ClCompile Include="dfs_math_problem.cpp" />
     <ClCompile Include="puzzle_road_by_bfs.cpp" />

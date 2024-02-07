@@ -4,6 +4,7 @@
 int a[10], book[10];
 int map_book[50][50], map[50][50];
 int m, n;
+int head, tail;
 int minstep = 10000;
 
 // 方便模拟移动坐标，定义一个方向数组以获取下一步的坐标

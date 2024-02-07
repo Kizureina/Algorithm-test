@@ -4,7 +4,7 @@
 
 extern int a[10], book[10];
 extern int map_book[50][50], map[50][50];
-extern int m, n;
+extern int m, n, head, tail;
 extern int minstep;
 
 // 方便模拟移动坐标，定义一个方向数组以获取下一步的坐标
@@ -21,3 +21,5 @@ void find_shortest_path_by_dfs();
 void find_path_dfs(int x, int y, int step);
 
 void find_path_by_bfs(int startx, int starty);
+void bomb_man_bfs(int startx, int starty);
+void bomb_man_dfs(int x, int y);
