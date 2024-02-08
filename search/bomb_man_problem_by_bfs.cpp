@@ -1,11 +1,5 @@
 #include "main.hpp"
 
-struct point
-{
-	int x;
-	int y;
-};
-
 point points[400];
 
 void bomb_man_bfs(int startx, int starty)

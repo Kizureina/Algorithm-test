@@ -10,6 +10,12 @@ extern int minstep;
 // 方便模拟移动坐标，定义一个方向数组以获取下一步的坐标
 extern int next_map[4][2];
 
+struct point
+{
+	int x;
+	int y;
+};
+
 using namespace std;
 
 void deep_first_serach_test();
@@ -23,3 +29,5 @@ void find_path_dfs(int x, int y, int step);
 void find_path_by_bfs(int startx, int starty);
 void bomb_man_bfs(int startx, int starty);
 void bomb_man_dfs(int x, int y);
+
+void find_island_width(int startx, int starty);

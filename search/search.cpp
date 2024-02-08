@@ -44,7 +44,7 @@ int main()
 	cin >> startx;
 	cin >> starty;
 
-	find_path_by_bfs(startx, starty);
+	bomb_man_bfs(startx, starty);
 
 	cout << "最短步数为:" << minstep;
     

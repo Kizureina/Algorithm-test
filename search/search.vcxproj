@@ -128,8 +128,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="bomb_man_problem_by_bfs.cpp" />
+    <ClCompile Include="bomb_man_problem_by_dfs.cpp" />
     <ClCompile Include="deep_first_search.cpp" />
     <ClCompile Include="dfs_math_problem.cpp" />
+    <ClCompile Include="island_problem_bfs.cpp" />
     <ClCompile Include="puzzle_road_by_bfs.cpp" />
     <ClCompile Include="puzzle_road_by_dfs.cpp" />
     <ClCompile Include="search.cpp" />
