@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "enumeration", "enumeration\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "search", "search\search.vcxproj", "{5C924E57-ED4A-40A9-8893-412B4EC12BA0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Graph_Traversal", "Graph_Traversal\Graph_Traversal.vcxproj", "{F524049A-D3BA-424F-8E15-67C4FF7F933C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{5C924E57-ED4A-40A9-8893-412B4EC12BA0}.Release|x64.Build.0 = Release|x64
 		{5C924E57-ED4A-40A9-8893-412B4EC12BA0}.Release|x86.ActiveCfg = Release|Win32
 		{5C924E57-ED4A-40A9-8893-412B4EC12BA0}.Release|x86.Build.0 = Release|Win32
+		{F524049A-D3BA-424F-8E15-67C4FF7F933C}.Debug|x64.ActiveCfg = Debug|x64
+		{F524049A-D3BA-424F-8E15-67C4FF7F933C}.Debug|x64.Build.0 = Debug|x64
+		{F524049A-D3BA-424F-8E15-67C4FF7F933C}.Debug|x86.ActiveCfg = Debug|Win32
+		{F524049A-D3BA-424F-8E15-67C4FF7F933C}.Debug|x86.Build.0 = Debug|Win32
+		{F524049A-D3BA-424F-8E15-67C4FF7F933C}.Release|x64.ActiveCfg = Release|x64
+		{F524049A-D3BA-424F-8E15-67C4FF7F933C}.Release|x64.Build.0 = Release|x64
+		{F524049A-D3BA-424F-8E15-67C4FF7F933C}.Release|x86.ActiveCfg = Release|Win32
+		{F524049A-D3BA-424F-8E15-67C4FF7F933C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

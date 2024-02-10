@@ -15,31 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="search.cpp">
+    <ClCompile Include="Graph_Traversal.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="deep_first_search.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="dfs_math_problem.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="puzzle_road_by_dfs.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="puzzle_road_by_bfs.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="bomb_man_problem_by_bfs.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="bomb_man_problem_by_dfs.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="island_problem_bfs.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="island_problem_dfs.cpp">
+    <ClCompile Include="graph_bfs_dfs.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

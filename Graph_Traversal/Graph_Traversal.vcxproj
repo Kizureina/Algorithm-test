@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{5c924e57-ed4a-40a9-8893-412b4ec12ba0}</ProjectGuid>
-    <RootNamespace>search</RootNamespace>
+    <ProjectGuid>{f524049a-d3ba-424f-8e15-67c4ff7f933c}</ProjectGuid>
+    <RootNamespace>GraphTraversal</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,15 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="bomb_man_problem_by_bfs.cpp" />
-    <ClCompile Include="bomb_man_problem_by_dfs.cpp" />
-    <ClCompile Include="deep_first_search.cpp" />
-    <ClCompile Include="dfs_math_problem.cpp" />
-    <ClCompile Include="island_problem_bfs.cpp" />
-    <ClCompile Include="island_problem_dfs.cpp" />
-    <ClCompile Include="puzzle_road_by_bfs.cpp" />
-    <ClCompile Include="puzzle_road_by_dfs.cpp" />
-    <ClCompile Include="search.cpp" />
+    <ClCompile Include="graph_bfs_dfs.cpp" />
+    <ClCompile Include="Graph_Traversal.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.hpp" />
