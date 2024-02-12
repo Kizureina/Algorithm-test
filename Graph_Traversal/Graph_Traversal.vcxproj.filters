@@ -18,7 +18,13 @@
     <ClCompile Include="Graph_Traversal.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="graph_bfs_dfs.cpp">
+    <ClCompile Include="graph_dfs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="graph_bfs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="city_map_dfs_graph.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

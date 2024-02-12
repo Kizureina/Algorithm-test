@@ -1,6 +1,5 @@
 #include "main.hpp"
-int sum, n;
-int book[101], e[101][101];
+
 
 void gragh_basic_concept()
 {
@@ -21,6 +20,7 @@ void gragh_basic_concept()
 			}
 			else
 			{
+				// 用作正无穷，即标记两个点之间没有连接
 				e[i][j] = 99999999999;
 			}
 		}

@@ -127,7 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="graph_bfs_dfs.cpp" />
+    <ClCompile Include="city_map_dfs_graph.cpp" />
+    <ClCompile Include="graph_bfs.cpp" />
+    <ClCompile Include="graph_dfs.cpp" />
     <ClCompile Include="Graph_Traversal.cpp" />
   </ItemGroup>
   <ItemGroup>
