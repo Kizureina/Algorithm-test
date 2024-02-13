@@ -27,6 +27,9 @@
     <ClCompile Include="city_map_dfs_graph.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="airplane_transfer_bfs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.hpp">

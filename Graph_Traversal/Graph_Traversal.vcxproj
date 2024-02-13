@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="airplane_transfer_bfs.cpp" />
     <ClCompile Include="city_map_dfs_graph.cpp" />
     <ClCompile Include="graph_bfs.cpp" />
     <ClCompile Include="graph_dfs.cpp" />

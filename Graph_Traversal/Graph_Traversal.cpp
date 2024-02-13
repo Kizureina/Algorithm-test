@@ -1,9 +1,10 @@
 ﻿#include "main.hpp"
-int sum, n;
+int sum, n, m;
 int book[101], e[101][101];
 
 int main()
 {
-	city_map();
+	min_transfer_bfs();
+
 	return 0;
 }
