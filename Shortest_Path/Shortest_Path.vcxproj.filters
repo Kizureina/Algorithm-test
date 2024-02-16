@@ -24,6 +24,9 @@
     <ClCompile Include="Dijkstra.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="thin_graph_matrix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.hpp">

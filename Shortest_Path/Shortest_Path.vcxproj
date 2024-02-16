@@ -130,6 +130,7 @@
     <ClCompile Include="Dijkstra.cpp" />
     <ClCompile Include="Floyd-Warshall.cpp" />
     <ClCompile Include="Shortest_Path.cpp" />
+    <ClCompile Include="thin_graph_matrix.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.hpp" />

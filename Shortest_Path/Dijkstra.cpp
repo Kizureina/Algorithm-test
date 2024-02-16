@@ -37,6 +37,7 @@ void dijkstra_shortest_path()
 				nearest = j;
 			}
 		}
+
 		// 标记nearest点为已知最短距离
 		book[nearest] = 1;
 
