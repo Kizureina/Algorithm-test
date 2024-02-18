@@ -3,7 +3,7 @@ int sum, n, m;
 int book[101], e[101][101];
 int infinity = 99999999999;
 
-int main()
+void io()
 {
 	cout << "输入图的顶点数:";
 	cin >> n;
@@ -39,8 +39,11 @@ int main()
 
 		e[a][b] = c;
 	}
+}
 
-	dijkstra_shortest_path();
-    
+int main()
+{
+	Bellman_ford_shortest_path();
+
     return 0;
 }
